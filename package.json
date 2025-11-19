@@ -1,0 +1,11 @@
+{
+  "name": "architect-mvp-demo",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed"
+  },
+  "devDependencies": {
+    "playwright": "^1.40.0"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "summary": {
+    "total": 6,
+    "passed": 3,
+    "failed": 1,
+    "flaky": 2,
+    "avg_duration_sec": 68.4
+  },
+  "tests": [
+    {
+      "name": "loginTest",
+      "status": "passed",
+      "duration": 8.2
+    },
+    {
+      "name": "checkoutTest",
+      "status": "flaky",
+      "duration": 46.3,
+      "message": "TimeoutError waiting for selector"
+    },
+    {
+      "name": "searchTest",
+      "status": "passed",
+      "duration": 12.5
+    },
+    {
+      "name": "profileUpdateTest",
+      "status": "failed",
+      "duration": 92.1,
+      "message": "AssertionError: expected status 200"
+    },
+    {
+      "name": "regressionTestA",
+      "status": "flaky",
+      "duration": 110.0,
+      "message": "Element not attached to DOM"
+    },
+    {
+      "name": "apiUserTest",
+      "status": "passed",
+      "duration": 6.8
+    }
+  ]
+}
